@@ -591,7 +591,6 @@ form .butto {
 
 #socials .social {
   font-size: 36px;
-  color: #2a9d8f;
   padding: 7px;
   text-align: center;
   transition: 0.25s ease;
@@ -609,8 +608,14 @@ form .butto {
   transform: rotate(-45deg);
 }
 
-.social:hover {
+.social a {
+  color: #2a9d8f;
+}
+.social a:hover {
   color: #f2b880 !important;
+}
+
+.social:hover {
   background-color: rgba(42, 157, 143, 0.5) !important;
   transition: 0.25s ease;
   cursor: pointer;
